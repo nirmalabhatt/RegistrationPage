@@ -1,0 +1,61 @@
+
+body,
+button,
+input {
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+#container {
+    width: 600px;
+    height: 350px;
+    border: solid 2px white;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: #df653a;
+}
+
+h1 {
+    font-weight: bold;
+    color: #002d5b;
+    text-align: center;
+    margin-top: 120px;
+}
+
+form {
+    margin: 0 auto;
+    display: block;
+    width: max-content;
+}
+
+.input-group {
+    margin: 12px 0;
+}
+
+.input-group input {
+    width: 320px;
+    height: 30px;
+    padding: 2px 10px;
+    font-size: 15px;
+    float: right;
+    border-radius: 15px;
+}
+
+#do {
+    display: block;
+    font-size: 120%;
+    width: 60%;
+    padding: 8px 44px;
+    float: right;
+    border-radius: 10px;
+    background-color: #6f321d;
+    border: none;
+    color: white;
+}
+
+a {
+    color: #6c241d;
+}
+
+#do:hover {
+    opacity: .7;
+}

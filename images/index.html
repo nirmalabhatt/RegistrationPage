@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Add Question</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Add Question</h1>
+  <form id="questionForm" method="POST" action="QuestionServlet">
+    <label for="question">Question:</label>
+    <textarea id="question" name="question" required></textarea>
+    <label for="optionA">Option A:</label>
+    <input type="text" id="optionA" name="optionA" required>
+    <label for="optionB">Option B:</label>
+    <input type="text" id="optionB" name="optionB" required>
+    <label for="optionC">Option C:</label>
+    <input type="text" id="optionC" name="optionC" required>
+    <label for="optionD">Option D:</label>
+    <input type="text" id="optionD" name="optionD" required>
+    <label for="correctAnswer">Correct Answer:</label>
+    <select id="correctAnswer" name="correctAnswer" required>
+      <option value="A">Option A</option>
+      <option value="B">Option B</option>
+      <option value="C">Option C</option>
+      <option value="D">Option D</option>
+    </select>
+    <button type="submit">Add Question</button>
+  </form>
+</body>
+</html>
